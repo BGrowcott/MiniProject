@@ -3,11 +3,11 @@ header {
     width: 100%;
 }
 
-li {
+nav li {
     display: inline;
 }
 
-ul {
+nav ul {
     float: right;
 }
 
@@ -15,15 +15,16 @@ h1 {
     text-align: center;
 }
 
-img {
-    border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
-
 footer {
     text-align: center;
 }
+
+img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {text-align: center;}
 
