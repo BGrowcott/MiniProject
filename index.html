@@ -1,41 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Visitors Contact Information</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <h1 class="text-center">Get in Touch with Ben!</h1>
+      <ul>
+        <li><a href="https://www.facebook.com/bgrowcott">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/ben-growcott-6a0232221/">Linkedin</a></li>
+        <li><a href="https://www.github.com/BGrowcott">Github</a></li>
+      </ul>
+    </header>
 
-<header>
-    <h1>Get in Touch with Ben!</h1>
-    <nav>
-        <ul>
-            <li> <a href="https://www.facebook.com/bgrowcott">Facebook</a></li>
-            <li>Nav2 - Linkedin</li>
-            <li>Nav3 - Github</li>
-        </ul>
-    </nav>
-</header>
-
-<figure>
-<img src="./assets/images/Ben.webp" alt="Photo of Ben himself">
-<figcaption>Photo of Ben himself</figcaption>
-</figure>
-
-<form>
-    <ul>
-        <li> Name: <input type="text"> </li>
-        <li> Email: <input type="text"> </li>
-    </ul>
-</form>
-
-<footer>
-    Footer Things here
-</footer>
+    <main>
+        <section id="section1">
+      <article class="article">
+        <h2>Who is he?</h2>
+        <p>
+          Despite popular opinion Ben is just man, no better than any other.
+        </p>
+        <p>
+          Born and raised in Birmingham, Ben made a name for himself discretely
+          selling pine nuts.
+        </p>
+        <p>Ben is 8ft tall and weighs 350kg</p>
+        <p>
+          Ben's greatest achievement is winning the underground pine nut eating
+          contest circa 2008
+        </p>
+      </article>
     
-</body>
+
+      <article class="article">
+        <h2>Why contact him?</h2>
+        <p>Here is a list of things Ben can help you do:</p>
+        <ul>
+          <li>Eat pine nuts</li>
+          <li>Survive</li>
+          <li>Kill</li>
+          <li>Commit insurance fraud</li>
+          <li>Assemble Ikea furniture</li>
+          <li>Change a lightbulb</li>
+          <li>Conspiracy</li>
+        </ul>
+      </article>
+    </section>
+
+<section id="section2">
+      <figure>
+        <img src="./assets/images/Ben.webp" alt="Photo of Ben himself" />
+        <figcaption class="text-center">Photo of Ben himself</figcaption>
+      </figure>
+    </section>
+
+    <section id="section3" class="float-right">
+      <article class="article">
+        <h2>Why is he?</h2>
+        <p>
+          Human evolution is the evolutionary process within the history of
+          primates that led to the emergence of Homo sapiens as a distinct
+          species of the hominid family, which includes the great apes. This
+          process involved the gradual development of traits such as human
+          bipedalism and language, as well as interbreeding with other hominins,
+          which indicate that human evolution was not linear but a web.
+        </p>
+      </article>
+
+      <article class="article">
+        <h2>Why contact anyone?</h2>
+        <p>
+          In sociology, socialization is the process of internalizing the norms
+          and ideologies of society. Socialization encompasses both learning and
+          teaching and is thus "the means by which social and cultural
+          continuity are attained". Socialization is strongly connected to
+          developmental psychology. Humans need social experiences to learn
+          their culture and to survive.
+        </p>
+      </article>
+    </section>
+    </main>
+
+    <form class="text-center">
+        <p>Help Ben contact you!</p>
+        <p>
+          By leaving your name and email address - we'll be in touch ASAP!
+        </p>
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" />
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input type="text" />
+          </li>
+        </ul>
+        <button type="submit">SEND</button>
+      </form>
+
+    <footer class="text-center">© Benjamin Inc.</footer>
+  </body>
 </html>
